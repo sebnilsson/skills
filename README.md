@@ -1,29 +1,32 @@
 # Skills
 
-My repository for useful skills.
+A collection of reusable coding agent skills.
 
-# [Learnings](skills/learnings/SKILL.md)
+## [Learnings](skills/learnings/SKILL.md)
 
-Recover the engineering lessons you missed while a coding agent did the work. This skill reviews the agent's own local work logs and explains difficult debugging, misleading symptoms, and non-obvious fixes, ranked by value. Each lesson includes evidence and what to carry forward. The report stays in chat.
+Learn from the work your coding agent did. The `learnings` skill reviews the current agent's accessible work history and turns useful discoveries into ranked engineering lessons. It explains what happened, how the investigation narrowed down the cause, what the evidence supports, and what to check in a similar situation. Explanations adapt to your experience level.
+
+By default, it reviews today in your timezone for the current project or directory. You can choose a period, project, topic, or all accessible projects. The review is read-only, reports gaps in the available history, and leaves its findings in chat.
 
 ## How to use
 
-Install skills using npm:
+Install with the skills CLI:
 
 ```sh
 npx skills@latest add sebnilsson/skills
 ```
 
-Then use the skill:
+Ask your agent to use the installed skill:
 
 ```text
-/learnings
+Use the learnings skill to review today's work.
 ```
 
-The default period is today. You can specify a date range, project, or topic. The review uses the current agent's accessible history and reports any gaps.
-
-You can give specific instructions to skills:
+If your agent supports slash commands, use `/learnings`. You can also tailor the request:
 
 ```text
-/learnings from this week, related to infrastructure
+Use learnings for this week's infrastructure work. Explain the concepts as you go.
+Use learnings for last week across all projects. Focus on advanced debugging lessons.
 ```
+
+Historical coverage depends on the agent's history tools and local logs. If those are unavailable, the skill can give a partial review of the current conversation.
