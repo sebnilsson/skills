@@ -4,9 +4,9 @@ A collection of reusable coding agent skills.
 
 ## [Learnings](skills/learnings/SKILL.md)
 
-Learn from the work your coding agent did. The `learnings` skill reviews the current agent's accessible work history and turns useful discoveries into ranked engineering lessons. It explains what happened, how the investigation narrowed down the cause, what the evidence supports, and what to check in a similar situation. Explanations adapt to your experience level.
+Learn from the work your coding agent did. The `learnings` skill reviews accessible coding-agent work history and turns useful discoveries into ranked lessons: debugging insights, consequential decisions, and ways to direct or verify the agent. Each lesson explains when it applies, the concept behind it, and what the evidence supports. Explanations adapt to your experience level.
 
-By default, it reviews today in your timezone for the current project or directory. You can choose a period, project, topic, or all accessible projects. The review is read-only, reports gaps in the available history, and leaves its findings in chat.
+By default, it reviews the current agent's work today in your timezone for the current project or directory. You can choose a period, project, topic, or all accessible projects. Explicitly request other agents to include their accessible local logs. The review is read-only, reports gaps in the available history, and leaves its findings in chat.
 
 ## How to use
 
@@ -27,6 +27,7 @@ If your agent supports slash commands, use `/learnings`. You can also tailor the
 ```text
 Use learnings for this week's infrastructure work. Explain the concepts as you go.
 Use learnings for last week across all projects. Focus on advanced debugging lessons.
+Use learnings for this week's work, including both Codex and Claude Code logs.
 ```
 
 Historical coverage depends on the agent's history tools and local logs. If those are unavailable, the skill can give a partial review of the current conversation.
