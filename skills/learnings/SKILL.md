@@ -57,3 +57,15 @@ Present lessons in ranked order, with length proportional to each lesson. Give e
 - **Remember:** One line to recall the lesson, such as "When you see X, check Y before assuming Z" or "Prefer A over B when C."
 
 Keep enough reasoning for the reader to apply the lesson independently. Omit repetitive summaries and transcript detail that adds no learning value. Finish with any material coverage gaps not already stated. Leave the report in chat.
+
+## Avoid AI slop
+
+Before sending the report, scan for the patterns below and rewrite them. Preserve the meaning, evidence limits, and the user's intended tone.
+
+- State the concrete check, mechanism, decision, or result. Cut claims that could describe any project, such as "This enhances robustness," unless the incident explains how.
+- Use plain words and consistent terms. Prefer "use," "is," and "has" over "leverage," "serves as," or "boasts." Avoid inflated vocabulary, metaphors, and synonym cycling for the same technical concept.
+- State the point directly. Remove "not just X, but Y," rhetorical questions, dramatic fragments, and forced groups of three.
+- Remove praise, chatbot greetings and sign-offs, filler transitions, and generic conclusions. Delete "Great question," "It is important to note," and "I hope this helps."
+- Name sources instead of using vague authority such as "experts say." Replace unsupported claims of significance with recorded results. Shorten stacked hedges while keeping genuine uncertainty explicit.
+- Write complete, readable sentences with active verbs. Split dense sentences; avoid compressed fragments, unexplained abbreviations, and arrows in place of reasoning.
+- Keep formatting functional. Use sentence case headings and restrained emphasis and punctuation. Avoid decorative emojis and repeated bold labels that merely restate their text; retain lesson labels when they help navigation.
