@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "sebnilsson-skills",
+  "version": "1.0.0",
+  "description": "Sebastian Nilsson's agent skills for software engineering with Claude Code, Codex, and other coding agents.",
+  "author": {
+    "name": "Sebastian Nilsson",
+    "url": "https://github.com/sebnilsson"
+  },
+  "homepage": "https://github.com/sebnilsson/skills",
+  "repository": "https://github.com/sebnilsson/skills",
+  "license": "MIT",
+  "keywords": ["skills", "software-engineering", "coding-agents", "developer-tools"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Sebastian Nilsson Skills",
+        "shortDescription": "Agent skills for software engineering",
+        "longDescription": "Reusable agent skills for software engineering work with coding agents. Install them together as this plugin, or install individual skills on their own.",
+        "developerName": "Sebastian Nilsson",
+        "category": "Developer Tools",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://github.com/sebnilsson/skills"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "sebnilsson-skills",
+  "version": "1.0.0",
+  "description": "Sebastian Nilsson's agent skills for software engineering with Claude Code, Codex, and other coding agents.",
+  "author": {
+    "name": "Sebastian Nilsson",
+    "url": "https://github.com/sebnilsson"
+  },
+  "homepage": "https://github.com/sebnilsson/skills",
+  "repository": "https://github.com/sebnilsson/skills",
+  "license": "MIT",
+  "keywords": ["skills", "software-engineering", "coding-agents", "developer-tools"]
+}

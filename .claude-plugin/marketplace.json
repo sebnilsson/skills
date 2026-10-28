@@ -1,0 +1,17 @@
+{
+  "name": "sebnilsson",
+  "owner": {
+    "name": "Sebastian Nilsson",
+    "url": "https://github.com/sebnilsson"
+  },
+  "description": "Sebastian Nilsson's agent skills for software engineering, as an installable Claude Code plugin.",
+  "plugins": [
+    {
+      "name": "sebnilsson-skills",
+      "source": "./",
+      "description": "Sebastian Nilsson's agent skills for software engineering with Claude Code, Codex, and other coding agents.",
+      "category": "development",
+      "keywords": ["skills", "software-engineering", "coding-agents"]
+    }
+  ]
+}

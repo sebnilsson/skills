@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learnings"
+  short_description: "Turn agent work history into ranked lessons"
+  default_prompt: "Use $learnings to review today's work."
